@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Roll</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+    <h1 class="main">Pay Slip</h1>
+    <div class="title">
+        <p>Pay Roll ID: <span>{payId}</span></p>
+        <p>Employee ID: <span>{empId}</span></p>
+        <p>Name: <span>{empName}</span></p>
+        <p>Email: <span>{empEmail}</span></p>
+        <p>Position: <span>{empPos}</span></p>
+        <p>Date: <span>{date}</span></p>
+    </div>
+    <div class="pay-table">
+        <table class="table">
+        <tr>
+            <th id="earning">Earning</th>
+            <th id="amount">Amount</th>
+        </tr>
+        <tr>
+            <td>Base Salary</td>
+            <td class="amount">{salary}</td>
+        </tr>
+        <tr>
+            <td>Total OT</td>
+            <td class="amount">{ot}</td>
+        </tr>
+        <tr>
+            <td>Bonus</td>
+            <td class="amount">{bonus}</td>
+        </tr>
+        <tr>
+        <tr class="deduct">
+            <th>Total Deduction</th>
+            <td class="amount">{deduct}</td>
+        </tr>
+        <tr class="net-pay">
+            <th>Net Pay</th>
+            <td class="amount">{total}</td>
+        </tr>
+        
+    </table>
+</div>
+
+</body>
+</html>

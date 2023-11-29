@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EmployeeSalaryMgr.Persistence.AddRemainPaymentDetail" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\AddRemainPaymentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Persistence.DBConnection" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAhAKAAAAAAAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>Persistence\DBConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Persistence.EmployeeRepository" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAgAAAABAAAAAAAIEAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\EmployeeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Persistence.PaymentDetailRepository" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Persistence\PaymentDetailRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.322" />
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Service.AddRemainPaymentDetailService" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\AddRemainPaymentDetailService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Service.EmployeeSearchService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAQAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\EmployeeSearchService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Service.EmployeeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAgAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Service\EmployeeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Service.GeneratePaySlipsService" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAABAAAAAIA=</HashCode>
+      <FileName>Service\GeneratePaySlipsService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Service.PaymentDetailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Service\PaymentDetailService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Model.Employee">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Model.PaymentDetail" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAIAAAAAAAAKBAAACgACQAABAkAAAQAAAgA=</HashCode>
+      <FileName>Model\PaymentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Model.Person">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAACAAAAAgAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Model\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeSalaryMgr.Program" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EmployeeSalaryMgr.Persistence.IPaymentDetailRepository" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Persistence\IPaymentDetailRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EmployeeSalaryMgr.Service.IEmployeeSearchService" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\IEmployeeSearchService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EmployeeSalaryMgr.Service.IEmployeeService" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Service\IEmployeeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EmployeeSalaryMgr.Service.IPaymetDetailService" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Service\IPaymetDetailService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EmployeeSalaryMgr.Service.CopyOfIEmployeeSearchService" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\IEmployeeSearchService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EmployeeSalaryMgr.Service.CopyOfIEmployeeService" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Service\IEmployeeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="EmployeeSalaryMgr.Model.Gender" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Model\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
